@@ -54,7 +54,7 @@ const ContextProvider: FC<Props> = ({ children }) => {
         
         // User is signed in, see docs for a list of available properties
         // https://firebase.google.com/docs/reference/js/auth.user
-        const uid = user.uid;
+        // const uid = user.uid;
         // ...
       } else {
         setAuth(false)

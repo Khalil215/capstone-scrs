@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import {Link, Navigate,useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import styles from "./Url.module.css";
 import axios from "axios";
 import magicIcon from "../../../assets/icons/magic.png";

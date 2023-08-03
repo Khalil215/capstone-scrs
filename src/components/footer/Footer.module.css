@@ -3,30 +3,6 @@
 	overflow: hidden;
 }
 
-.footer::before {
-	content: "";
-	position: absolute;
-	height: 541px;
-	width: 508px;
-	left: 0;
-	bottom: 0;
-	background: url("../../../assets/footer.png");
-	background-repeat: no-repeat;
-	z-index: -4;
-}
-
-.footer::after {
-	content: "";
-	position: absolute;
-	height: 358px;
-	width: 543px;
-	right: 0;
-	bottom: 0;
-	background: url("../../../assets/footer2.png");
-	background-repeat: no-repeat;
-	z-index: -4;
-}
-
 .left {
 	width: 25%;
 }
